@@ -33,6 +33,7 @@ public class TMenuController {
     @GetMapping("/all")
     public ResponseData queryAll() {
          List<TMenu> list =tMenuService.queryAll ();
+        System.out.println ("hhahahha");
         return ResponseData.ok().putDataValue ("menus",list);
     }
     
