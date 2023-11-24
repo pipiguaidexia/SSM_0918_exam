@@ -1,0 +1,14 @@
+.idea
+.idea/
+*.iml
+.iml
+target/
+log
+log/
+logs
+logs/
+*.log
+rebel.xml
+corenet_lib/
+corenet_lib*
+static/
